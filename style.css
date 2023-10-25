@@ -1,0 +1,62 @@
+.container {
+  width: 700px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  background-color: #FAF2EA;
+}
+
+.img-circle{
+  border-radius: 1000px;
+  height: 300px;
+}
+
+.card-white{
+  background-color: white;
+  justify-content: center;
+  border-radius: 30px;
+  text-align: center;
+  padding: 15px
+}
+
+.card-space{
+  margin-top: 30px;
+}
+
+.btn-blue{
+  border-radius: 30px;
+  background-color: #001F44;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.list-inline{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  }
+.list-inline li{
+  margin: 0 15px;
+  }
